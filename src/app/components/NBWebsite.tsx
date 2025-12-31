@@ -218,8 +218,8 @@ export const NBWebsite = () => {
             className="text-base sm:text-lg lg:text-xl text-gray-600 max-w-2xl mx-auto mb-6 sm:mb-10 leading-relaxed animate-fade-in-up"
             style={{ animationDelay: "0.5s" }}
           >
-            Dedicated to social welfare, rehabilitation, and humanitarian support across Pakistan. Empowering special
-            needs children and vulnerable families.
+            Noor-E-Bahali Foundation is dedicated to social welfare, rehabilitation, and humanitarian support across
+            Pakistan. Empowering special needs children and vulnerable families.
           </p>
 
           <div
@@ -310,7 +310,7 @@ export const NBWebsite = () => {
             <h2 className="text-2xl sm:text-3xl lg:text-5xl font-bold text-gray-600 mt-2 sm:mt-3">What Drives Us</h2>
           </div>
 
-          <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-6  mx-auto">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-6 mx-auto">
             {[
               { icon: Heart, title: "Compassion", desc: "Serving humanity with empathy and respect" },
               { icon: Users, title: "Inclusion", desc: "Ensuring equitable care and opportunity for all" },
@@ -362,7 +362,7 @@ export const NBWebsite = () => {
                   <div className="w-7 sm:w-8 h-7 sm:h-8 rounded-full bg-teal-500 flex items-center justify-center shrink-0 mt-1">
                     <CheckCircle2 className="w-4 sm:w-5 h-4 sm:h-5 text-white" />
                   </div>
-                  <p className="text-sm sm:text-base text-gray-800 font-medium group-hover:text-teal-700 transition">
+                  <p className="text-sm sm:text-base text-gray-700 font-medium group-hover:text-teal-700 transition">
                     {item}
                   </p>
                 </div>
@@ -500,11 +500,10 @@ export const NBWebsite = () => {
       <footer className="bg-gradient-to-br from-gray-100 via-teal-50 to-gray-100 text-gray-700 py-8 sm:py-12  border-teal-200/50 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="text-center">
-            <p className="font-medium text-xs sm:text-base mb-2">
-              &copy; 2025 Noor-E-Bahali Foundation. All rights reserved.{" "}
-              {/* <span className="text-emerald-600 font-semibold">SECP Registered NGO</span> */}
+            <p className="font-medium text-xs sm:text-base mb-2 text-gray-700">
+              &copy; 2025 - {new Date().getFullYear()} Noor-E-Bahali Foundation. All rights reserved.
             </p>
-            <p className="text-xs sm:text-sm text-gray-600">
+            <p className="text-xs sm:text-sm text-gray-700">
               Developed with <span className="text-red-500">❤️</span> by{" "}
               <a
                 href="https://hbkm.dev"
