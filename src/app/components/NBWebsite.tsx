@@ -306,7 +306,7 @@ export const NBWebsite = () => {
             <h2 className="text-2xl sm:text-3xl lg:text-5xl font-bold text-gray-600 mt-2 sm:mt-3">What Drives Us</h2>
           </div>
 
-          <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-6 max-sm:max-w-52 mx-auto">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-6 max-sm:max-w-56 mx-auto">
             {[
               { icon: Heart, title: "Compassion", desc: "Serving humanity with empathy and respect" },
               { icon: Users, title: "Inclusion", desc: "Ensuring equitable care and opportunity for all" },
@@ -321,7 +321,7 @@ export const NBWebsite = () => {
                     <value.icon className="w-5 sm:w-6 h-5 sm:h-6 text-white" />
                   </div>
                   <h3 className="font-bold text-gray-700 mb-2 text-base sm:text-lg">{value.title}</h3>
-                  <p className="text-sm  text-gray-600 leading-relaxed text-center">{value.desc}</p>
+                  <p className="text-sm sm:text-base  text-gray-600 leading-relaxed text-center">{value.desc}</p>
                 </div>
               </div>
             ))}
@@ -380,11 +380,11 @@ export const NBWebsite = () => {
               <h2 className="text-2xl sm:text-3xl lg:text-5xl font-bold mb-4 sm:mb-8 text-gray-600  max-sm:text-center">
                 Help Us Make a Difference
               </h2>
-              <p className="text-sm sm:text-lg  leading-relaxed mb-4 sm:mb-6 text-gray-800 ">
+              <p className="text-sm sm:text-lg  leading-relaxed mb-4 sm:mb-6 text-gray-700">
                 Your support enables Noor-E-Bahali Foundation to continue its mission and meet day-to-day operational
                 expenses, including therapy facilitation, welfare activities and community programs.
               </p>
-              <p className="text-sm sm:text-lg  leading-relaxed">
+              <p className="text-sm sm:text-lg leading-relaxed text-gray-700">
                 Every donation Zakat, Sadaqah, or general charity plays a vital role in sustaining daily operations and
                 expanding outreach to those in need.
               </p>
@@ -463,7 +463,7 @@ export const NBWebsite = () => {
             <p className="text-base sm:text-lg lg:text-xl text-gray-700">We'd love to hear from you</p>
           </div>
 
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-10 max-w-52 sm:max-w-4xl mx-auto">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-10 max-w-56 sm:max-w-4xl mx-auto">
             {[
               { icon: Mail, label: "Email", value: "noorebahali@gmail.com", href: "mailto:noorebahali@gmail.com" },
               { icon: Phone, label: "WhatsApp", value: "+92 3173358335", href: "https://wa.me/923173358335" },
