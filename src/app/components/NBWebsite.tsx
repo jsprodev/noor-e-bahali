@@ -306,7 +306,7 @@ export const NBWebsite = () => {
             <h2 className="text-2xl sm:text-3xl lg:text-5xl font-bold text-gray-600 mt-2 sm:mt-3">What Drives Us</h2>
           </div>
 
-          <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-6">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-6 max-sm:max-w-52 mx-auto">
             {[
               { icon: Heart, title: "Compassion", desc: "Serving humanity with empathy and respect" },
               { icon: Users, title: "Inclusion", desc: "Ensuring equitable care and opportunity for all" },
@@ -321,7 +321,7 @@ export const NBWebsite = () => {
                     <value.icon className="w-5 sm:w-6 h-5 sm:h-6 text-white" />
                   </div>
                   <h3 className="font-bold text-gray-700 mb-2 text-base sm:text-lg">{value.title}</h3>
-                  <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">{value.desc}</p>
+                  <p className="text-sm  text-gray-600 leading-relaxed text-center">{value.desc}</p>
                 </div>
               </div>
             ))}
@@ -463,11 +463,11 @@ export const NBWebsite = () => {
             <p className="text-base sm:text-lg lg:text-xl text-gray-700">We'd love to hear from you</p>
           </div>
 
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-10 max-w-5xl mx-auto">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-10 max-w-52 sm:max-w-4xl mx-auto">
             {[
               { icon: Mail, label: "Email", value: "noorebahali@gmail.com", href: "mailto:noorebahali@gmail.com" },
               { icon: Phone, label: "WhatsApp", value: "+92 3173358335", href: "https://wa.me/923173358335" },
-              { icon: MapPin, label: "Location", value: "D-17, Islamabad, Pakistan", href: "#" },
+              { icon: MapPin, label: "Location", value: "D-17, Islamabad, Pakistan", href: "#contact" },
             ].map((contact, i) => (
               <a
                 key={i}
