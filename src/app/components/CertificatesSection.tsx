@@ -9,7 +9,10 @@ export const CertificatesSection = () => {
 
   return (
     <>
-      <section className="py-12 sm:py-16 lg:py-24 bg-linear-to-br from-gray-50 to-teal-50 relative overflow-hidden">
+      <section
+        id="recognition"
+        className="py-12 sm:py-16 lg:py-24 bg-linear-to-br from-gray-50 to-teal-50 relative overflow-hidden"
+      >
         <div className="absolute top-0 left-0 w-96 h-96 bg-teal-100/20 rounded-full blur-3xl -translate-x-1/2"></div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
@@ -37,6 +40,7 @@ export const CertificatesSection = () => {
                       alt={cert.title}
                       fill
                       className="object-cover group-hover:scale-105 transition duration-300"
+                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                     />
                   </div>
                   <div className="p-6">

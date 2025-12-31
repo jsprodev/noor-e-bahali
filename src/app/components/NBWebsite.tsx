@@ -74,12 +74,14 @@ export const NBWebsite = () => {
           }
         }
         @keyframes pulse-glow {
-          0%,
-          100% {
-            box-shadow: 0 0 20px rgba(16, 185, 129, 0.3);
+          0% {
+            box-shadow: 0 0 0 0 rgb(13 148 136 / 0.7);
           }
-          50% {
-            box-shadow: 0 0 40px rgba(16, 185, 129, 0.6);
+          70% {
+            box-shadow: 0 0 0 10px rgb(13 148 136 / 0);
+          }
+          100% {
+            box-shadow: 0 0 0 0 rgb(13 148 136 / 0);
           }
         }
         .animate-fade-in-up {
@@ -189,13 +191,15 @@ export const NBWebsite = () => {
         ></div>
 
         <div className="relative max-w-7xl mx-auto text-center">
-          <div
-            className="inline-flex items-center gap-2 mb-6 bg-teal-100/50 backdrop-blur px-3 sm:px-4 py-2 rounded-full border border-teal-200/50 animate-scale-in"
-            style={{ animationDelay: "0.1s" }}
-          >
-            <div className="w-2 h-2 bg-teal-600 rounded-full animate-pulse-glow"></div>
-            <span className="text-xs sm:text-sm font-medium text-teal-700">SECP Registered NGO Since 2025</span>
-          </div>
+          <a href="#recognition">
+            <div
+              className="inline-flex items-center gap-2 mb-6 bg-teal-100/50 backdrop-blur px-3 sm:px-4 py-2 rounded-full border border-teal-200/50 animate-scale-in"
+              style={{ animationDelay: "0.1s" }}
+            >
+              <div className="w-2 h-2 bg-teal-600 rounded-full animate-pulse-glow"></div>
+              <span className="text-xs sm:text-sm font-medium text-teal-700">SECP Registered NGO Since 2025</span>
+            </div>
+          </a>
 
           <h1 className="text-3xl sm:text-5xl lg:text-7xl font-bold leading-tight mb-4 sm:mb-6">
             <span
@@ -306,7 +310,7 @@ export const NBWebsite = () => {
             <h2 className="text-2xl sm:text-3xl lg:text-5xl font-bold text-gray-600 mt-2 sm:mt-3">What Drives Us</h2>
           </div>
 
-          <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-6 max-sm:max-w-56 mx-auto">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-6  mx-auto">
             {[
               { icon: Heart, title: "Compassion", desc: "Serving humanity with empathy and respect" },
               { icon: Users, title: "Inclusion", desc: "Ensuring equitable care and opportunity for all" },
@@ -321,7 +325,7 @@ export const NBWebsite = () => {
                     <value.icon className="w-5 sm:w-6 h-5 sm:h-6 text-white" />
                   </div>
                   <h3 className="font-bold text-gray-700 mb-2 text-base sm:text-lg">{value.title}</h3>
-                  <p className="text-sm sm:text-base  text-gray-600 leading-relaxed text-center">{value.desc}</p>
+                  <p className="text-sm sm:text-base  text-gray-700 leading-relaxed text-center">{value.desc}</p>
                 </div>
               </div>
             ))}

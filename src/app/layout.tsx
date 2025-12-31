@@ -22,6 +22,28 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "Noor-E-Bahali Foundation",
+    description: "SECP-registered NGO providing rehabilitation and humanitarian support",
+    url: "https://noorebahali.org",
+    logo: "https://noorebahali.org/logo.png",
+    contact: {
+      "@type": "ContactPoint",
+      contactType: "Customer Service",
+      telephone: "+92-317-3358335",
+      email: "noorebahali@gmail.com",
+    },
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "D-17",
+      addressLocality: "Islamabad",
+      postalCode: "44000",
+      addressCountry: "PK",
+    },
+    sameAs: ["https://facebook.com/noorebahali", "https://instagram.com/noorebahali", "https://x.com/noorebahali"],
+  };
   return (
     <html lang="en">
       <body className={`${montserrat.variable} ${openSans.variable} antialiased`}>{children}</body>
