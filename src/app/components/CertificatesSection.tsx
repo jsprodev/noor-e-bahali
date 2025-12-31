@@ -5,7 +5,7 @@ import Image from "next/image";
 import { ArrowRight, X } from "lucide-react";
 
 export const CertificatesSection = () => {
-  const [selectedImage, setSelectedImage] = useState(null);
+  const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   return (
     <>
