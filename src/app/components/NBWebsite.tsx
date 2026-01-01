@@ -108,7 +108,7 @@ export const NBWebsite = () => {
       <nav className="sticky top-0 bg-white/80 backdrop-blur-xl border-b border-gray-200/50 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
           <Image
-            src="/logo.png"
+            src="/logo1.png"
             alt="Noor-E-Bahali Foundation"
             width={1082}
             height={334}
@@ -405,6 +405,14 @@ export const NBWebsite = () => {
                   <div className="pb-4 sm:pb-6 border-b border-gray-200/80">
                     <p className="text-teal-500 text-xs sm:text-sm font-semibold uppercase tracking-wide">Bank Name</p>
                     <p className="text-lg sm:text-xl font-semibold text-gray-700">Faysal Bank</p>
+                  </div>
+                  <div className="pb-4 sm:pb-6 border-b border-gray-200/80">
+                    <p className="text-teal-500 text-xs sm:text-sm font-semibold uppercase tracking-wide">
+                      Account Title
+                    </p>
+                    <p className="text-lg sm:text-xl font-mono font-semibold break-all text-gray-700">
+                      NOOR-E-BAHALI FOUNDATION
+                    </p>
                   </div>
                   <div className="pb-4 sm:pb-6 border-b border-gray-200/80">
                     <p className="text-teal-500 text-xs sm:text-sm font-semibold uppercase tracking-wide">

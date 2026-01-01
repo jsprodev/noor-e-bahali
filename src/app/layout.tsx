@@ -28,7 +28,7 @@ export default function RootLayout({
     name: "Noor-E-Bahali Foundation",
     description: "SECP-registered NGO providing rehabilitation and humanitarian support",
     url: "https://noorebahali.org",
-    logo: "https://noorebahali.org/logo.png",
+    logo: "https://noorebahali.org/logo1.png",
     contact: {
       "@type": "ContactPoint",
       contactType: "Customer Service",

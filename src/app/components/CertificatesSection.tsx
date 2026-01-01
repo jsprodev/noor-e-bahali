@@ -28,8 +28,8 @@ export const CertificatesSection = () => {
 
           <div className="grid md:grid-cols-2 gap-8">
             {[
-              { title: "SECP Registration Certificate", image: "/certificate1.webp" },
-              { title: "NGO License Document", image: "/certificate2.webp" },
+              { title: "SECP NGO License", image: "/certificate1.webp" },
+              { title: "FBR Tax Certificate", image: "/certificate2.webp" },
             ].map((cert, i) => (
               <div key={i} onClick={() => setSelectedImage(cert.image)} className="group relative cursor-pointer">
                 <div className="absolute inset-0 bg-linear-to-br from-gray-500/20 to-teal-500/20 rounded-3xl opacity-0 group-hover:opacity-100 transition duration-300 blur-xl"></div>
